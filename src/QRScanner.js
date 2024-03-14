@@ -5,7 +5,7 @@ import { NotFoundException } from '@zxing/library';
 
 const QRScanner = () => {
   const videoRef = useRef(null);
-  const [qrCodeText, setQrCodeText] = useState('No QR code detected');
+  const [qrCodeText, setQrCodeText] = useState('No QR code detecteddd');
 
   useEffect(() => {
     const codeReader = new BrowserQRCodeReader();
